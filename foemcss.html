@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form.CSS</title>
+
+    <style>
+      
+    h1{ 
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+    }  
+      #first  {
+        width: 80%;
+        display:inline-block ;
+        border: 2px solid #ccc;
+        box-sizing: border-box;
+        margin: 10px;
+        margin-right: 20px;
+        padding: 10px;
+
+     }
+     #middlename {
+        width: 80%;
+        display:inline-block ;
+        border: 2px solid #ccc;
+        box-sizing: border-box;
+        margin: 10px;
+        margin-right: 20px;
+        padding: 10px;
+     }
+      
+     #last {
+        width: 80%;
+        display:inline-block ;
+        border: 2px solid #ccc;
+        box-sizing: border-box;
+        margin: 10px;
+        margin-right: 20px;
+        padding: 10px;
+     }
+     #date{
+        width: 250px;
+        height:30px;
+        padding: 10px;
+     }
+      tr.gender{
+       text-align: center;
+      }
+
+    </style>
+</head>
+<body>
+    <h1>Application Form</h1>
+    <h3>Please fillup the Registration </h3>
+    <form>
+    
+        <lable for="name">First Name:</lable> <br>
+        <input  type="text" id="first" name="first ">
+         <br>
+        <lable for="middle">Middle name:</lable> <br>
+        <input type="text" id="middlename" name="middle ">
+        <br>
+         <lable for="last ">Last Name:</lable> <br>
+         <input type="text" id="last" name="last ">
+    
+    <br><br>
+    
+       <label for="birth" style="font-size: 30px;">Date of Birth:</label>
+        <input type="date" id="date" name="date ">
+
+       <tr style="margin: right:200px "> 
+      <label for="gender " style="font-size:30px;">Male:</label>
+      <input type="radio" id="male" name="gender">
+
+      <label for="gender " style="font-size: 30px;">Female:</label>
+       <input type="radio" id="Female" name="gender">
+
+       <label for="gender " style="font-size: 30px;">Other:</label>
+       <input type="radio" id="other "name="gender">
+       </tr>
+    
+       <br><br>
+    <tr>
+        <label for="ID" style="font-size: 30px;"> Your ID:</label>
+        <input type="text"id="your id" name="id "> 
+
+        <label for="my number " style="font-size: 30px;" > My ID:</label>
+        <input type="text"id=" my id" name=" my id "> 
+
+    </tr>
+      <br><br>
+    <tr>
+        <label for="occupation" style="font-size: 30px;"> Occupation:</label>
+        <label for="employed" style="font-size: 30px;"> General employee:</label>
+        <input type="checkbox" id="employed" name="employedr">
+        
+        <label for="Self- Employed " style="font-size: 30px;" > Occupation:</label>
+        <input type="checkbox" id=" self employed" name=" self employedr">
+
+        <label for="student " style="font-size: 30px;"> Student:</label>
+        <input type="checkbox" id="student" name="student">
+
+        <label for="occupation" style="font-size: 30px;"> unemployed:</label>
+        <input type="checkbox" id="unemployed" name="unemployedr">
+    </tr>
+     <br><br>
+    <tr>
+
+       <lable for="address" style="font-size: 50px;">Adress:</lable>
+       <textarea id="address" name="address" style="width: 500px;height: 100px ;">From Post code:  </textarea> 
+    </tr>
+    <br><br>
+
+    <label for="country" style="font-size: 50px;"> Nationlity</label>
+   <select style="width: 300px ;">
+   <option>Bangladesh </option>
+   <option>Japan </option>
+   <option>India </option>
+   <option>Nepal </option>
+</select>
+        <br><br>
+    <fieldset style="height: 200px; width: 80%;">
+      <legend >Write Information</legend>
+    <label for="Name ">First Name</label>
+     <input style="text" id="name" name="name">
+
+    <label for="Last Name ">Last Name </label>
+    <input style="text" id="last name" name="last name">
+    </fieldset>
+
+
+
+    </form>
+<br style="width: 30px;">
+<input type="submit" >
+<br>
+</body>
+</html>
